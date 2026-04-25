@@ -343,3 +343,16 @@ button[type="submit"] :hover {
     list-style-type: none;
     background-color: bisque;
 }
+
+@media(max-width:600px){
+    nav ul{
+        display:flex;
+        flex-wrap; /* This lets links move to a second line if they don't fit */
+    justify-content:centre;
+        padding:0;
+    }
+    nav ul li {
+        margin:5px; /* Shrinks the gap between Home, About, etc. */
+    font-size:14px; /* Makes text slightly smaller for phones */
+    }
+}
